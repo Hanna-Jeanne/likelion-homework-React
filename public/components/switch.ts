@@ -42,7 +42,8 @@ function SwitchButton() {
     {
       onClick: handleClick,
       type: "button",
-      className: "btn-toggle",
+      className: "btn-switch",
+      role: "switch",
       "aria-checked": isActive ? "true" : "false",
 
       style: ButtonStyle,
