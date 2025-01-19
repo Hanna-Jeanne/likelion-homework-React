@@ -1,13 +1,25 @@
 {
+  "private": true,
+  "type": "module",
+  "name": "likelion-vite-react",
+  "version": "1.0.0",
+  "description": "Vite 빌드 도구를 사용해 React 개발 환경을 자동 스캐폴드하는 템플릿",
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=9.0.0",
+    "vscode": ">=1.9.0"
+  },
   "scripts": {
     "start": "pnpm dev --open",
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
+    "@vitejs/plugin-react": "4.3.4",
+    "typescript": "5.7.3",
     "vite": "6.0.7"
   },
   "dependencies": {
