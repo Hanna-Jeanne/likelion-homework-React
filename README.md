@@ -2,7 +2,7 @@
 
 ```sh
 # 저장소 복사
-npx degit https://github.com/Hanna-Jeanne/likelion-homework-React <폴더이름>
+npx degit Hanna-Jeanne/likelion-homework-React <폴더이름>
 ```
 
 ```sh
