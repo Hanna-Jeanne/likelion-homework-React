@@ -1,0 +1,23 @@
+[
+  {
+    "id": "item-1",
+    "image": "/src/components/assets/image1.png",
+    "name": "1A 우유 900mL",
+    "price": 1800,
+    "stock": 3
+  },
+  {
+    "id": "item-2",
+    "image": "/src/components/assets/image2.png",
+    "name": "맛있는 콩나물",
+    "price": 1280,
+    "stock": 2
+  },
+  {
+    "id": "item-3",
+    "image": "/src/components/assets/image3.png",
+    "name": "고소한 두부 1kg",
+    "price": 2280,
+    "stock": 2
+  }
+]

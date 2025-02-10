@@ -1,5 +1,7 @@
+import Cart from './components/cart';
+
 function App() {
-  return;
+  return <Cart />;
 }
 
 export default App;
